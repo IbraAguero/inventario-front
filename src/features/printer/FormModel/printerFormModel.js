@@ -1,5 +1,3 @@
-const URL = 'https://inventario-ministerio-api.onrender.com';
-
 export default {
   formId: 'printerForm',
   formField: {
@@ -16,25 +14,25 @@ export default {
     maker: {
       name: 'maker',
       label: 'Fabricante*',
-      url: `${URL}/impresoras/fabricantes'`,
+      url: `/impresoras/fabricantes'`,
       requiredErrorMsg: 'Fabricante es requerido',
     },
     model: {
       name: 'model',
       label: 'Modelo*',
-      url: `${URL}/impresoras/modelos/`,
+      url: `/impresoras/modelos/`,
       requiredErrorMsg: 'Modelo es requerido',
     },
     place: {
       name: 'place',
       label: 'Lugar*',
-      url: `${URL}/lugares`,
+      url: `/lugares`,
       requiredErrorMsg: 'Lugar es requerido',
     },
     state: {
       name: 'state',
       label: 'Estado*',
-      url: `${URL}/estados`,
+      url: `/estados`,
       requiredErrorMsg: 'Lugar es requerido',
     },
   },
