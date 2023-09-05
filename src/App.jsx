@@ -3,14 +3,14 @@ import { AuthProvider } from './context/AuthContext.jsx';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 
 //import RegisterPage from './pages/RegisterPage';
-import LoginPage from './pages/LoginPage';
-import ProfilePage from './pages/Private/ProfilePage';
-import HomePage from './pages/Private/HomePage';
+import LoginPage from './pages/LoginPage.jsx';
+import ProfilePage from './pages/Private/ProfilePage.jsx';
+import HomePage from './pages/Private/HomePage.jsx';
 import ComputerPage from './pages/Private/Computer/ComputerPage.jsx';
 import MonitorPage from './pages/Private//Monitors/MonitorPage.jsx';
-import PeripheralPage from './pages/Private/PeripheralPage';
-import NetworkPage from './pages/Private/NetWorkPage';
-import NotFoundPage from './pages/NotFoundPage';
+import PeripheralPage from './pages/Private/PeripheralPage.jsx';
+import NetworkPage from './pages/Private/NetworkPage.jsx';
+import NotFoundPage from './pages/NotFoundPage.jsx';
 
 import ProtectedRoute from './ProtectedRoute';
 import Navbar from './components/Navbar';
