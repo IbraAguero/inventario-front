@@ -14,7 +14,7 @@ export default {
     maker: {
       name: 'maker',
       label: 'Fabricante*',
-      url: `/impresoras/fabricantes'`,
+      url: `/impresoras/fabricantes`,
       requiredErrorMsg: 'Fabricante es requerido',
     },
     model: {
