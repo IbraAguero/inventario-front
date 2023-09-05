@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://inventario-ministerio.onrender.com/api',
+  baseURL: 'https://inventario-ministerio-api.onrender.com/api',
   withCredentials: true,
 });
 
