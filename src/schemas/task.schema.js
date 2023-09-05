@@ -1,7 +1,6 @@
-import { z } from 'zod';
+import * as yup from 'yup';
 
-export const createTaskSchema = z.object({
-  title: z.string({ required_error: 'El titulo es requerido' }),
-  description: z.string({ required_error: 'La descripcion es requerida' }),
-  date: z.string().datetime().optional(),
+export const createTaskSchema = yup.object().shape({
+  title: yup.string().required('El titulo es obligatorio'),
+  description: yup.string().required('La descripcion es obligatoria'),
 });
